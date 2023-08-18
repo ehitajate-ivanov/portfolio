@@ -1,0 +1,27 @@
+.header {
+    height: 100px;
+}
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 33px 0;
+}
+
+.header-logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
