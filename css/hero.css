@@ -69,9 +69,23 @@
     height: 32px;
 }
 
-div,
-span,
-h1,
-p {
-    background-color: blueviolet;
+.hero-link {
+    display: flex;
+    gap: 30px;
+    margin-top: 44px;
 }
+
+.mailme {
+    display: block;
+    width: 151px;
+    padding: 16px 0 15px 60px;
+    font-weight: 700;
+    background: var(--bg-yellow) url(../img/mail.svg) no-repeat left 28px center;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+a {
+    border: 1px solid ;
+}
+
