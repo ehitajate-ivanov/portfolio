@@ -85,6 +85,16 @@
     border-radius: 10px;
 }
 
+.dowloadcv {
+    display: block;
+    width: 184px;
+    padding: 16px 0 15px 51px;
+    font-weight: 700;
+    background: url(../img/download.svg) no-repeat left 22px center; 
+    border-color: var(--bg-yellow);
+    border-radius: 10px;
+}
+
 a {
     border: 1px solid ;
 }
