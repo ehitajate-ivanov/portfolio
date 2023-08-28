@@ -1,5 +1,8 @@
 .hero-wrapper {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
 
 .hero-subtitle {
@@ -90,12 +93,35 @@
     width: 184px;
     padding: 16px 0 15px 51px;
     font-weight: 700;
-    background: url(../img/download.svg) no-repeat left 22px center; 
-    border-color: var(--bg-yellow);
+    background: url(../img/download.svg) no-repeat left 22px center;
+    border: 1px solid var(--color-yellow);
     border-radius: 10px;
 }
 
-a {
-    border: 1px solid ;
+.hero-img {
+    max-width: 593px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
 }
 
+.hero-img::before {
+    content: "";
+    width: 245px;
+    height: 197px;
+    background: url(../img/bg-bubbles.png) no-repeat center ;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 20px;
+}
+
+.hero-img figure {
+    width: 553px;
+    position: relative;
+    z-index: 2;
+}

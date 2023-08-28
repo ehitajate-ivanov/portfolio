@@ -4,10 +4,12 @@
 
 .header-fixed {
     position: fixed;
+    z-index: 3;
     top: 0;
     left: 0;
     right: 0;
     padding: 33px 0;
+    background: var(--bg-dark);
 }
 
 .header-logo {
