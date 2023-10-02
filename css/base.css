@@ -67,3 +67,9 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+.inner-title {
+    font-size: 48px;
+    line-height: 62px;
+    
+}
