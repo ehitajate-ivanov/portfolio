@@ -1,0 +1,8 @@
+.cta-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 140px;
+    background: var(--bg-yellow);
+    border-radius: 25px;
+}
