@@ -1,8 +1,55 @@
+.cta {
+    padding: 42px 0 50px;
+}
+
 .cta-wrapper {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     gap: 140px;
     background: var(--bg-yellow);
     border-radius: 25px;
+    padding: 63px 0 60px;
+
+
+}
+
+.cta-title {
+    color: var(--color-white);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    width: 265px;
+}
+
+.cta-block {
+    display: flex;
+    gap: 50px;
+}
+
+.cta-email {
+    display: block;
+    width: 212.191px;
+    padding: 21px 25px 18px 68px;
+    height: 70px;
+    border-radius: 10px;
+    background: var(--color-white) url(../img/mailblack.svg) no-repeat left 25px center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-dark);
+}
+
+.cta-link {
+    display: block;
+    width: 273.246px;
+    height: 70px;
+    padding: 18px 0 16px 28px;
+    border-radius: 10px;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 700;
+
 }
