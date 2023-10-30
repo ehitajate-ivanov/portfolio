@@ -1,5 +1,5 @@
 .cta {
-    padding: 42px 0 50px;
+    padding: 42px 0 94px;
 }
 
 .cta-wrapper {
@@ -11,15 +11,12 @@
     background: var(--bg-yellow);
     border-radius: 25px;
     padding: 63px 0 60px;
+    margin-bottom: 100px;
 
 
 }
 
 .cta-title {
-    color: var(--color-white);
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 62px;
     width: 265px;
 }
 
@@ -30,8 +27,8 @@
 
 .cta-email {
     display: block;
-    width: 212.191px;
-    padding: 21px 25px 18px 68px;
+    width: 212px;
+    padding: 18px 0 0 68px;
     height: 70px;
     border-radius: 10px;
     background: var(--color-white) url(../img/mailblack.svg) no-repeat left 25px center;
@@ -39,17 +36,26 @@
     font-size: 24px;
     font-weight: 600;
     color: var(--color-dark);
+    line-height: normal;
 }
 
 .cta-link {
     display: block;
-    width: 273.246px;
+    width: 273px;
     height: 70px;
-    padding: 18px 0 16px 28px;
+    padding: 17px 0 16px;
     border-radius: 10px;
     border: 2px solid var(--color-white);
     color: var(--color-white);
     font-size: 24px;
     font-weight: 700;
+    line-height: normal;
+    text-align: center;
 
+}
+
+.logos {
+    max-width: 1014px;
+    width: 100%;
+    margin: 0 auto;
 }

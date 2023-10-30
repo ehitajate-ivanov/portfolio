@@ -1,0 +1,41 @@
+.testimonials {
+    padding: 50px 0;
+    background: #386163;
+}
+
+.testimonials-title {
+    max-width: 609px;
+    margin: 0 auto 52px;
+}
+
+.testimonials-slider {
+    max-width: 529px;
+    margin: 0 auto;
+    padding: 52px 55px;
+}
+
+.testimonials-text {
+    height: 155px;
+    margin-bottom: 42px;
+
+}
+
+.testimonials-slider-buttom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.slider-autor {
+    display: flex;
+    gap: 20px;
+}
+
+.autor-list .name {
+    
+}
+
+.autor-list .job {
+    
+}
