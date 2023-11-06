@@ -29,13 +29,35 @@
 
 .slider-autor {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
 .autor-list .name {
-    
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+
 }
 
 .autor-list .job {
-    
+font-family: var(--ff-libre);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; 
 }
+
+.testimonials-text p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.stars .jq-ry-normal-group svg {
+    fill: silver;
+  }
+  
+  .stars .jq-ry-rated-group svg {
+    fill: #F5BF75;
+  }
