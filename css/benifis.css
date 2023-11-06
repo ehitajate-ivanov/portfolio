@@ -33,26 +33,11 @@
 }
 
 .benefits-slider .slick-dots {
-    display: flex;
-    justify-content: center;
     gap: 15px;
     margin-top: 30px;
-}
-
-.benefits-slider .slick-dots li {
-    font-size: 0;
-    line-height: 0;
-    width: 15px;
-    height: 15px;
-    background: var(--color-grey);
-    border-radius: 50%;
 }
 
 .benefits-slider .slick-dots li.slick-active {
     background: var(--color-yellow);
 }
 
-.benefits-slider .slick-dots button {
-    font-size: 0;
-    line-height: 0;
-}

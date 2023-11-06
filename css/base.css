@@ -16,6 +16,7 @@
     --bg-yellow: #CD921E;
     --bg-grey: #2F2F2F;
     
+    --transition: .3s linear;
 
 }
 
@@ -72,4 +73,36 @@ body {
     font-size: 48px;
     line-height: 62px;
     
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li {
+    font-size: 0;
+    line-height: 0;
+    border-radius: 50%;
+}
+
+.slick-dots li {
+    width: 15px;
+    height: 15px;
+    background: var(--color-grey);
+}
+
+.slick-dots button {
+    font-size: 0;
+    line-height: 0;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
 }

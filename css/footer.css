@@ -1,0 +1,18 @@
+.footer {
+    background: var(--bg-dark);
+    padding: 59px 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-up {
+    color: var(--color-primary);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    background: var(--bg-dark);
+}

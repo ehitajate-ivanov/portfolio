@@ -8,6 +8,15 @@ $(document).ready(function () {
         autoplay: true,
     })
 
+    $(".testimonials-sliders").slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        autoplay: true,
+    })
+
     $(".stars").rateYo({
         rating: 4.6,
         normalFill: "#F5BF75",
