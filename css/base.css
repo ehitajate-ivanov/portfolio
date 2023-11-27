@@ -54,6 +54,10 @@ input {
     outline: 0;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 body {
     font-family: var(--ff-poppins);
     color: var(--color-primary);
@@ -61,6 +65,12 @@ body {
     line-height: 1;
     font-weight: 600;
     background: var(--bg-dark);
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 .container {
@@ -100,9 +110,11 @@ body {
 .social {
     display: flex;
     align-items: center;
+    gap: 25px;
 }
 
 .social-icon {
     width: 32px;
     height: 32px;
 }
+

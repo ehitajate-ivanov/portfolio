@@ -9,10 +9,28 @@
     align-items: center;
 }
 
-.btn-up {
+.footer-back {
     color: var(--color-primary);
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
     background: var(--bg-dark);
+}
+
+.footer-link {
+    color: var(#F1F1F1);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+}
+
+.btn-up {
+    width: 18px;
+    height: 24px;
+    background: url(../img/arrow.svg) no-repeat center;
+    position: fixed;
+    z-index: 3;
+    bottom: 150px;
+    right: 50px;
+    display: none;
 }
