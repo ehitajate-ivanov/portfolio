@@ -8,7 +8,7 @@
     justify-content: center;
     gap: 94px;
     padding-bottom: 100px;
-    border-bottom: 1px solid var(--color-dark);
+    border-bottom: 3px solid var(--color-dark);
 }
 
 .about-img {
@@ -74,44 +74,21 @@
     height: 57px;
 }
 
-.line {
-    border-bottom: 3px solid #2F2F2F;
-    width: 1110px
-}
 
 .about-article {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.first-p {
-    display: block;
-    margin-top: 50px;
-    width: 1110px;
-    height: 225px;
-    color: var(--color-primary);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 45px;
-
+    padding: 50px 0 100px;
+    border-bottom: 3px solid var(--color-dark);
 }
 
 
 .about-picture {
-    width: 1110px;
-    height: 411.483px;
-    flex-shrink: 0;
     border-radius: 25px;
     background: lightgray 50% / cover no-repeat;
     margin-top: 43px;
-    margin-bottom: 49.52px;
+    margin-bottom: 50px;
 }
 
-.second-p {
-    display: block;
-    width: 1110px;
-    color: var(--color-primary);
+.about-article p {
     font-size: 18px;
     font-weight: 400;
     line-height: 45px;
@@ -125,4 +102,58 @@
     flex-shrink: 0;
     border-radius: 25px;
     background: lightgray 50% / cover no-repeat;
+}
+
+.about-article p+p {
+    margin-top: 43px;
+}
+
+.video {
+    position: relative;
+    border-radius: 25px;
+    width: 98%;
+    height: 617px;
+    margin: 50px auto 0;
+}
+
+#video {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.video::before {
+    content:"";
+    background: url(../img/video-bg.jpg) no-repeat center;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    border-radius: 25px;
+
+}
+
+.video-title {
+    position: absolute;
+    color: var(--color-white);
+    font-size: 36px;
+    line-height: 62px;
+    top: 22px;
+    left: 42px;
+    z-index: 2;
+    opacity: 1;
+}
+
+.video-btn {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    width: 113px;
+    height: 106px;
+    background: url(../img/play.png) no-repeat center;
+    transform: translate(-50%, -50%);
 }
