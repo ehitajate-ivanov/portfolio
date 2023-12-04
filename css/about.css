@@ -133,7 +133,13 @@
     bottom: 0;
     opacity: 1;
     border-radius: 25px;
+    transition: var(--transition);
 
+}
+
+.video.active::before {
+    opacity: 0;
+    z-index: -1;
 }
 
 .video-title {
@@ -156,4 +162,11 @@
     height: 106px;
     background: url(../img/play.png) no-repeat center;
     transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: var(--transition);
+}
+
+.video-btn.active {
+    z-index: -1;
+    opacity: 0;
 }

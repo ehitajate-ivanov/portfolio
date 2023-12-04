@@ -38,4 +38,12 @@ $(document).ready(function () {
             scrollTop: 0
         }, 800)        
     });
+
+    // play video
+    $(".video-btn").click(function (e) { 
+        e.preventDefault();
+        $(".video-btn").addClass("active")
+        $(".video").addClass("active")
+        $("#video").get(0).play()
+    });
 });
