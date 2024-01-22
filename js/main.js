@@ -46,4 +46,9 @@ $(document).ready(function () {
         $(".video").addClass("active")
         $("#video").get(0).play()
     });
+
+    $(".burger").click(function(){
+        $(".burger").toggleClass("active") 
+        $(".nav").toggleClass("active") 
+    })
 });
