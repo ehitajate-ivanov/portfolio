@@ -1,0 +1,23 @@
+.project-title {
+    width: 285px;
+    margin-bottom: 40px;
+}
+
+.tab {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.tab-element {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.69;
+    color:#828282;
+    cursor: pointer;
+}
+
+.tab-element.active {
+    color: #eebf63;
+    border-bottom: 5px solid #eebf63;
+}
