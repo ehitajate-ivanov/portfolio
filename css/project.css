@@ -5,6 +5,7 @@
 
 .tab {
     display: flex;
+    flex-wrap: wrap;
     gap: 80px;
     margin-bottom: 50px;
 }
@@ -13,11 +14,63 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 1.69;
-    color:#828282;
+    color: #828282;
     cursor: pointer;
 }
 
 .tab-element.active {
     color: #eebf63;
     border-bottom: 5px solid #eebf63;
+}
+
+.project-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+.project-block {
+    max-width: 540px;
+    width: 100%;
+}
+
+.project-block img {
+    border-radius: 25px;
+
+}
+
+.title {
+    display: block;
+    margin: 20px 0 10px;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color-primary);
+
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.list a {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-primary);
+    padding-left: 31px;
+}
+
+.study {
+    background: url(../img/case.svg) no-repeat left center;
+    padding-left: 30px;
+    line-height: 1.2;
+}
+
+.prev {
+    background: url(../img/show.svg) no-repeat left center;
+    padding-left: 30px;
+
 }

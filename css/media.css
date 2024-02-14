@@ -6,7 +6,14 @@
 }
 @media(max-width:) {}
 @media(max-width:980px) {}
-@media(max-width:768px) {}
+@media(max-width:768px) {
+    .tab {
+        gap: 30px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 @media(max-width:590px){
     .nav {
         display: flex;
@@ -100,5 +107,13 @@
     .hero-title {
         font-size: 38px;
         line-height: normal;
+    }
+
+    .list {
+        gap: 25px;
+    }
+
+    .tab-element {
+        font-size: 28px;
     }
 }
