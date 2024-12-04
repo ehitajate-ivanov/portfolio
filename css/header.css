@@ -33,7 +33,8 @@
     transition: .2s;
 }
 
-.link:hover {
+.link:hover,
+.link.active {
     color: var(--link-hover);
 
 }

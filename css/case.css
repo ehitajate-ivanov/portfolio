@@ -1,0 +1,23 @@
+.subtitle {
+    font-size: 18px;
+    line-height: 1.67;
+    font-weight: 400;
+}
+
+.case-list {
+    display: flex;
+    gap: 36px;
+}
+
+.case-item {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.case-item span {
+    font-weight: 400;
+    display: block;
+    font-size: 16px;
+    line-height: 1.75;
+}
