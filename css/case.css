@@ -7,6 +7,7 @@
 .case-list {
     display: flex;
     gap: 36px;
+    margin-bottom: 50px;
 }
 
 .case-item {
@@ -20,4 +21,79 @@
     display: block;
     font-size: 16px;
     line-height: 1.75;
+}
+
+.case-content {
+    padding: 50px 0;
+    border-top: 3px solid #2F2F2F;
+    border-bottom: 3px solid #2F2F2F;
+}
+
+.case-content img {
+    border-radius: 25px;
+}
+
+.case-content figure figcaption {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--color-grey);
+    text-align: center;
+    margin-top: 8px;
+}
+
+.case-content h2 {
+    margin: 10px 0;
+    font-weight: 700;
+    line-height: 1.72;
+}
+
+.case-content p {
+    font-size: 18px;
+    line-height: 2.5;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.case-content h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.case-last {
+    padding: 50px 0;
+}
+
+.case-last h2 {
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.28;
+}
+
+.case-last ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.case-last li {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 540px;
+    width: 100%;
+}
+
+.case-last img {
+    border-radius: 25px;
+}
+
+.case-last a {
+    font-weight: 600;
+    font-size: 24px;
 }
