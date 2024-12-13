@@ -25,12 +25,16 @@
 }
 
 .btn-up {
-    width: 18px;
-    height: 24px;
-    background: url(../img/arrow.svg) no-repeat center;
+    width: 45px;
+    height: 45px;
+    background: #f8dda6 url(../img/arrow.svg) no-repeat center;
     position: fixed;
     z-index: 3;
-    bottom: 150px;
-    right: 50px;
+    bottom: 70px;
+    right: 30px;
     display: none;
+    border: 1px solid #828282;
+    padding: 10px;
+    background-size: 50%;
+    border-radius: 50%;
 }
