@@ -6,6 +6,30 @@ $(document).ready(function () {
         arrows: false,
         dots: true,
         autoplay: true,
+        mobileFirst: false,
+        responsive: [
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 550,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     })
 
     $(".testimonials-sliders").slick({
@@ -15,6 +39,7 @@ $(document).ready(function () {
         arrows: false,
         dots: true,
         autoplay: true,
+
     })
 
     $(".stars").rateYo({
@@ -27,29 +52,29 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 200) {
-            $(".btn-up").fadeIn(); 
+            $(".btn-up").fadeIn();
         } else {
-            $(".btn-up").fadeOut();  
-        } 
+            $(".btn-up").fadeOut();
+        }
     });
 
-    $(".btn-up").click(function () { 
+    $(".btn-up").click(function () {
         $("html, body").animate({
             scrollTop: 0
-        }, 800)        
+        }, 800)
     });
 
     // play video
-    $(".video-btn").click(function (e) { 
+    $(".video-btn").click(function (e) {
         e.preventDefault();
         $(".video-btn").addClass("active")
         $(".video").addClass("active")
         $("#video").get(0).play()
     });
 
-    $(".burger").click(function(){
-        $(".burger").toggleClass("active") 
-        $(".nav").toggleClass("active") 
+    $(".burger").click(function () {
+        $(".burger").toggleClass("active")
+        $(".nav").toggleClass("active")
     })
 
     // tabs
@@ -58,9 +83,9 @@ $(document).ready(function () {
         let value = $(this).attr("data-filter")
         if (value === "all") {
             $(".filter").show(1000)
-        } else{
-            $(".filter").not("."+value).hide(1000)
-            $(".filter").filter("."+value).show(1000)
+        } else {
+            $(".filter").not("." + value).hide(1000)
+            $(".filter").filter("." + value).show(1000)
         }
 
         $(this).addClass("active").siblings().removeClass("active")

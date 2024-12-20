@@ -27,7 +27,7 @@
 }
 
 .cta-email {
-    display: block;
+    display: flex;
     gap: 16px;
     width: 212px;
     padding: 18px 0 18px 68px;
