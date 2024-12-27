@@ -119,6 +119,16 @@
     .cta-link {
         width: 290px;
     }
+
+    .testimonials-slider-buttom {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 45px;
+    }
+
+    .testimonials-slider {
+        padding: 40px 15px;
+    }
 }
 
 @media(max-width:450px) {
@@ -135,6 +145,10 @@
 
     .inner-title {
         font-size: 38px;
+    }
+
+    .testimonials-slider-buttom {
+        gap: 20px;
     }
 
 }
@@ -174,5 +188,9 @@
     .content-list {
         flex-wrap: wrap;
         gap: 15px;
+    }
+
+    .testimonials-text p {
+        font-size: 20px;
     }
 }
