@@ -68,7 +68,9 @@
 
 .project-cta .cta-wrapper {
     padding: 50px 75px;
-    gap: 244px;
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .project-cta .cta-title {
