@@ -102,3 +102,10 @@ $(document).ready(function () {
     })
 });
 
+
+ScrollReveal().reveal('.item', {interval: 400});
+ScrollReveal().reveal('.header-logo', {delay: 100});
+ScrollReveal().reveal('.second-img', {origin: "top", duration: 1000});
+ScrollReveal().reveal('.second-contentlist, .second-title, .second-text', {origin: "top", duration: 1400, delay: 600});
+ScrollReveal().reveal('.hero-content', {origin: "left", delay: 120, duration: 1500, distance: "50%"});
+ScrollReveal().reveal('.hero-img', {origin: "right", delay: 220, duration: 1500, distance: "50%"});

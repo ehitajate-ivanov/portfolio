@@ -150,6 +150,10 @@
     .contact-map, .contact-form, .form {
         max-width: 100%;
     }
+
+    .header-fixed {
+        padding: 24px 0;
+    }
 }
 
 @media(max-width:450px) {
