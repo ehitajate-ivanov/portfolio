@@ -102,9 +102,37 @@ $(document).ready(function () {
     })
 });
 
+ScrollReveal({
+    reset: true,
+    distance: "50px", 
+    duration: 1200, 
+    delay: 100,
+    easing: "ease-in-out"
+})
 
-ScrollReveal().reveal('.item', {interval: 400});
-ScrollReveal().reveal('.header-logo', {delay: 100});
+ScrollReveal().reveal('.third-title, .third-link, .cta-title, .cta-email, .cta-link', {
+    interval: 200, 
+    origin: "top"
+});
+
+ScrollReveal().reveal('.content-title, .content-list, .benefits-title', {
+    interval: 200, 
+    origin: "right",
+    distance: "100px",
+    delay: 300,
+});
+
+ScrollReveal().reveal('.third-content figure', {
+    origin: "bottom",
+    distance: "70px",
+    interval: 400, 
+    delay: 200
+});
+
+ScrollReveal().reveal('.testimonials-title', {
+    origin: "bottom"
+});
+
 ScrollReveal().reveal('.second-img', {origin: "top", duration: 1000});
 ScrollReveal().reveal('.second-contentlist, .second-title, .second-text', {origin: "top", duration: 1400, delay: 600});
 ScrollReveal().reveal('.hero-content', {origin: "left", delay: 120, duration: 1500, distance: "50%"});
