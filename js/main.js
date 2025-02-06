@@ -137,3 +137,20 @@ ScrollReveal().reveal('.second-img', {origin: "top", duration: 1000});
 ScrollReveal().reveal('.second-contentlist, .second-title, .second-text', {origin: "top", duration: 1400, delay: 600});
 ScrollReveal().reveal('.hero-content', {origin: "left", delay: 120, duration: 1500, distance: "50%"});
 ScrollReveal().reveal('.hero-img', {origin: "right", delay: 220, duration: 1500, distance: "50%"});
+
+ScrollReveal().reveal('.about-img', {
+    origin: "left", 
+    delay: 120, 
+    duration: 1500, 
+    distance: "50%"
+});
+ScrollReveal().reveal('.about-content', {
+    origin: "right", 
+    delay: 220, 
+    duration: 1500, 
+    distance: "50%"
+});
+ScrollReveal().reveal('.first-p, .second-p, .team-title', {
+    interval: 200, 
+    origin: "top"
+});
