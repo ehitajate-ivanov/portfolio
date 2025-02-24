@@ -110,12 +110,12 @@ ScrollReveal({
     easing: "ease-in-out"
 })
 
-ScrollReveal().reveal('.third-title, .third-link, .cta-title, .cta-email, .cta-link', {
+ScrollReveal().reveal('.third-title, .third-link, .cta-title, .cta-email, .cta-link, .inner-title.project-title, .case-content, .case-last', {
     interval: 200, 
     origin: "top"
 });
 
-ScrollReveal().reveal('.content-title, .content-list, .benefits-title', {
+ScrollReveal().reveal('.content-title, .content-list, .benefits-title, .case-list, .case-last a', {
     interval: 200, 
     origin: "right",
     distance: "100px",
